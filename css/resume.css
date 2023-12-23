@@ -1,8 +1,11 @@
 * {
     box-sizing: border-box;
 }
-.main-body {
-    max-width: 1460px;
+.body {
+    background-color: #060505;
+}
+.main-body # {
+    max-width: 1080px;
     overflow: auto;
     margin: 0 auto;
     background-color: whitesmoke;
@@ -19,28 +22,24 @@
 }
 .main {
     float: left;
-    width: 60%;
+    width: 75%;
     margin-top: 1px;
     padding: 10px;
     background-color: #d7c0d2;
 }
 .menu {
-    float: left;
-    width: 20%;
-    background-color: rgb(53, 18, 167);
-    color: #000000;
+    width: 100%;
+    background-color: #FF9B33;
     text-align: center;
     margin-top: 1px;
 }
 .menu a {
     background-color: #FF9B33;
-    padding: 8px;
-    margin-top: 1px;
-    margin-bottom: 1%;
-    display: block;
-    width: 100%;
-    color: black;
-    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    margin: 1%;
+    display: inline-table;
+    text-decoration: dotted;
 }
 .menu a:hover {
     background-color: #ffffff;
@@ -49,10 +48,10 @@
 .right {
     background-color: #b7ead4;
     float: left;
-    width: 20%;
-    margin-top: 1px;
+    width: 25%;
+    /* margin-top: 1px; */
     text-align: center;
-    padding: 5px;
+    padding: 5%;
   }
   .footer {
     text-align: center;
