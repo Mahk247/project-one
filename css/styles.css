@@ -12,10 +12,14 @@
     text-align: center;
     color: #ffffff;
     padding: 10px;
+    font-size: 220%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .headers:hover{
     background-color: yellowgreen;
     color: #000000;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .main {
     float: left;

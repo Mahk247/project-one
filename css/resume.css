@@ -12,13 +12,21 @@
 }
 .headers {
     background-color: #041666;
+    font-size: 700%;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     color: #ffffff;
     padding: 10px;
+    
 }
 .headers:hover{
     background-color: yellowgreen;
     color: #000000;
+    text-transform: uppercase;
+}
+.headers h1 {
+    font-size: 40px;
 }
 .main {
     float: left;
@@ -31,20 +39,18 @@
     float: unset;
     width: 100%;
     text-decoration:solid;
-    text-transform: inherit;
     background-color: #FF9B33;
     text-align: center;
     margin-top: 1px;
 }
 .menu a {
     background-color: #FF9B33;
-
     font-size: 25px;
     padding: 15px;
     text-align: center;
     margin: 1%;
     display: inline-table;
-    /* text-decoration: dotted; */
+    text-decoration: dotted;
 }
 .menu a:hover {
     background-color: #ffffff;
